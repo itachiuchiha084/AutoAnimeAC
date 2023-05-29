@@ -6,12 +6,12 @@ if os.path.exists("config.env"):
 elif os.path.exists("sample.env"):
     load_dotenv("sample.env")
 
-API_ID = os.getenv("API_ID")
-API_HASH = os.getenv("API_HASH")
+API_ID = os.getenv("API_ID","19099900")
+API_HASH = os.getenv("API_HASH","2b445de78e5baf012a0793e60bd4fbf5")
 BOT_TOKEN = os.getenv("BOT_TOKEN","6065321925:AAHOUFD7idBBq-Rnud0hRyitSH_f_S43vqk")
 MONGO_DB_URI = os.getenv("MONGO_DB_URI","mongodb+srv://sonu55:sonu55@cluster0.vqztrvk.mongodb.net/?retryWrites=true&w=majority")
-STATUS_MSG_ID = os.getenv("STATUS_MSG_ID")
-SCHEDULE_MSG_ID = os.getenv("SCHEDULE_MSG_ID")
+STATUS_MSG_ID = os.getenv("STATUS_MSG_ID","https://t.me/Upload_AC/2")
+SCHEDULE_MSG_ID = os.getenv("SCHEDULE_MSG_ID","https://t.me/Upload_AC/2")
 CHANNEL_TITLE = os.getenv("CHANNEL_TITLE", "Anime_Campus")
 INDEX_CHANNEL_USERNAME = os.getenv("INDEX_CHANNEL_USERNAME","Index_AC")
 UPLOADS_CHANNEL_USERNAME = os.getenv("UPLOADS_CHANNEL_USERNAME","Upload_AC")
