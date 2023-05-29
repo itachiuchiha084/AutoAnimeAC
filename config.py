@@ -6,8 +6,8 @@ if os.path.exists("config.env"):
 elif os.path.exists("sample.env"):
     load_dotenv("sample.env")
 
-API_ID = os.getenv("API_ID","19099900")
-API_HASH = os.getenv("API_HASH","2b445de78e5baf012a0793e60bd4fbf5")
+API_ID = os.getenv("API_ID","16743442")
+API_HASH = os.getenv("API_HASH","12bbd720f4097ba7713c5e40a11dfd2a")
 BOT_TOKEN = os.getenv("BOT_TOKEN","6065321925:AAHOUFD7idBBq-Rnud0hRyitSH_f_S43vqk")
 MONGO_DB_URI = os.getenv("MONGO_DB_URI","mongodb+srv://sonu55:sonu55@cluster0.vqztrvk.mongodb.net/?retryWrites=true&w=majority")
 STATUS_MSG_ID = os.getenv("STATUS_MSG_ID","https://t.me/Upload_AC/2")
