@@ -15,7 +15,7 @@ loop = asyncio.get_event_loop()
 async def start(bot, message: Message):
     await message.reply_photo(
         "assets/thumb.jpg",
-        caption="⭐️ **Bot Is Online...**\n\n**Updates :** @TechZBots **| Support :** @TechZBots_Support",
+        caption="⭐️ **Bot Is Online...**\n\n**Updates :** @Index_AC ** ", 
     )
 
 
